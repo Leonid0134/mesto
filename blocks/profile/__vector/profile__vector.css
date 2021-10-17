@@ -1,0 +1,28 @@
+.profile__vector {
+  border: 1px solid #FFFFFF;
+  padding: 7px;
+  margin: 15px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-color: #000000;
+  background-image: url(../../../images/pen.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.profile__vector:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 900px) {
+  .profile__vector {
+    padding: 5px;
+    margin: 7px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../../images/penMobile.svg);
+  }
+}
