@@ -13,7 +13,8 @@
 * Новый интерфейс DOM!
 * Использование макета из Figma!
 
-[Посмотреть]https://leonid0134.github.io/mesto/index.html
+## [Посмотреть проект]
+* https://leonid0134.github.io/mesto/index.html
 
 
 
