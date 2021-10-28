@@ -6,8 +6,6 @@ cursor: pointer;
 border: 0;
 padding: 0;
 background-image: url(../../../images/heart.svg);
-background-color: transparent;
-flex: 0 0 auto;
 }
 
 .cards__heart:hover {

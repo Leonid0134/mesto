@@ -1,15 +1,14 @@
+@import url(./__logo/header__logo.css);
+
 .header {
-  display: flex;
-  padding: 45px 0 0;
-  min-height: 74px;
-  max-width: 880px;
-  border-bottom: 1px solid rgba(33%, 33%, 33%, 0.7);
-  margin: 0 auto;
+  min-width: 882px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  padding-top: 45px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 980px) {
   .header {
-    padding:  0;
-    min-width: 319px;
+    min-width: 80%;
+    padding: 28px 3px 0;
   }
 }
