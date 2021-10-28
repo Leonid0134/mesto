@@ -1,13 +1,12 @@
-@import url(./__copyright/footer__copyright.css);
-
 .footer {
-  min-width: 882px;
-  padding-top: 66px;
+  font-family: 'Inter', Arial, sans-serif;
+  padding-top: 67px;
+  padding-bottom: 60px;
 }
 
-@media screen and (max-width: 980px) {
-  .footer {
-    min-width: 80%;
+@media(max-width: 630px) {
+  .footer{
     padding-top: 48px;
+    padding-bottom: 36px;
   }
 }

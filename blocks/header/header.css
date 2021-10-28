@@ -1,14 +1,14 @@
-@import url(./__logo/header__logo.css);
-
 .header {
-  min-width: 882px;
   border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  min-height: 74px;
   padding-top: 45px;
+  font-family: 'Inter', Arial, sans-serif; 
 }
 
-@media screen and (max-width: 980px) {
-  .header {
-    min-width: 80%;
-    padding: 28px 3px 0;
+@media(max-width: 630px) {
+  .header{
+    min-height: 56px;
+    padding-top: 28px;
+    
   }
 }
