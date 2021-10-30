@@ -1,110 +1,94 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mesto</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <title>Mesto</title>
 </head>
-<body class="page">
-  <div class="page__container">
-    <header class="header">
-     <img src="./images/logo.svg" alt="Лого" class="header__logo">
-    </header>
 
-    <main class="content">
-      <section class="profile">
-         <img src="./images/image.jpg" alt="Аватар пользователя" class ="profile__avatar">
-         <div class="profile__main-information">
-           <div class="profile__profile-info">
-              <h1 class="profile__name">Жак-Ив Кусто</h1>
-              <p class="profile__description">Исследователь океана</p>
-            </div>
-           <button type="button" class="profile__edit-button">
-             <img class="profile__edit-cell" src="./images/edit.svg" alt="Кнопка редактировать">
-            </button>
-         </div>
-          <button type="button" class="profile__add-button">
-            <img class="profile__add-cell" src="./images/add.svg" alt="Кнопка добавить">
-          </button>
-      </section>
+<body class="body">
 
-      <section class="elements">
-        <div class="element">
-          <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Старый дом на фоне леса " class="element__image">
-          <div class="element__block">
-           <p class="element__title">Карачаевск</p>
-           <button type="button" class="element__like">
-              <img src="./images/like.svg" alt="Лайк" class="element__like-cell">
-           </button>
-          </div>
-        </div>
-        <div class="element">
-          <img src="./images/kirill-pershin-1404681-unsplash.png" alt="Гора Эльбрус" class="element__image">
-          <div class="element__block">
-            <p class="element__title">Гора Эльбрус</p>
-            <button type="button" class="element__like">
-              <img src="./images/like.svg" alt="Лайк" class="element__like-cell">
-            </button>
-          </div>
-        </div>
-        <div class="element">
-          <img src="./images/kirill-pershin-1556355-unsplash.png" alt="Домбай" class="element__image">
-          <div class="element__block">
-            <p class="element__title">Домбай</p>
-            <button type="button" class="element__like">
-              <img src="./images/like.svg" alt="Лайк" class="element__like-cell">
-            </button>
-          </div>
-          
-        </div>
-        <div class="element">
-          <img src="./images/kirill-pershin-1404681-unsplash.png" alt="Гора Эльбрус" class="element__image">
-          <div class="element__block">
-            <p class="element__title">Гора Эльбрус</p>
-            <button type="button" class="element__like">
-              <img src="./images/like.svg" alt="Лайк" class="element__like-cell">
-            </button>
-          </div>
-        </div>
-        <div class="element">
-          <img src="./images/kirill-pershin-1556355-unsplash.png" alt="Домбай" class="element__image">
-          <div class="element__block">
-            <p class="element__title">Домбай</p>
-            <button type="button" class="element__like">
-              <img src="./images/like.svg" alt="Лайк" class="element__like-cell">
-            </button>
-          </div>
-        </div>
-        <div class="element">
-          <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Старый дом на фоне леса" class="element__image">
-          <div class="element__block">
-            <p class="element__title">Карачаево-Черкессия</p>
-            <button type="button" class="element__like">
-              <img src="./images/like.svg" alt="Лайк" class="element__like-cell">
-            </button>
-          </div>
-        </div>
-      </section>
+  <header class="header body__container">
+    <img alt="Логотип" src="./images/header-logo.svg" class="header__logo">
+  </header>  
 
+  <main class="content">
+    <section class="profile">
+      <img class="profile__avatar" src="./images/avatar.png" alt="фото">
+      <div class="profile__info">
+        <h1 class="profile__name">Жак-Ив Кусто</h1>
+        <button type="button" aria-label="Редактировать" class="profile__edit-button"></button>
+        <p class="profile__job">Исследователь океана</p>
+      </div>
+      <button type="button" aria-label="Добавить" class="profile__button-add"></button>
+    </section>
+    
+    <section class="elements">
+      <ul class="elements__block">
+        <li class="element">
+          <img class="element__image" src="./images/karachaevsk.png" alt="Карачаево-Черкесия">
+          <div class="element__info">
+            <h2 class="element__title">Карачаево-Черкесия</h2>
+            <button type="button" aria-label="Нравится" class="element__button-like"></button>
+          </div>
+        </li>
+        <li class="element">
+          <img class="element__image" src="./images/elbrus.png" alt="Гора Эльбрус">
+          <div class="element__info">
+            <h2 class="element__title">Гора Эльбрус</h2>
+            <button type="button" aria-label="Нравится" class="element__button-like"></button>
+          </div>
+        </li>
+        <li class="element">
+          <img class="element__image" src="./images/dombay.png" alt="Домбай">
+          <div class="element__info">
+            <h2 class="element__title">Домбай</h2>
+            <button type="button" aria-label="Нравится" class="element__button-like"></button>
+          </div>
+        </li>
+        <li class="element">
+          <img class="element__image" src="./images/elbrus.png" alt="Гора Эльбрус">
+          <div class="element__info">
+            <h2 class="element__title">Гора Эльбрус</h2>
+            <button type="button" aria-label="Нравится" class="element__button-like"></button>
+          </div>
+        </li> <li class="element">
+          <img class="element__image" src="./images/dombay.png" alt="Домбай">
+          <div class="element__info">
+            <h2 class="element__title">Домбай</h2>
+            <button type="button" aria-label="Нравится" class="element__button-like"></button>
+          </div>
+        </li>
+        <li class="element">
+          <img class="element__image" src="./images/karachaevsk.png" alt="Карачаево-Черкесия">
+          <div class="element__info">
+            <h2 class="element__title">Карачаево-Черкесия</h2>
+            <button type="button" aria-label="Нравится" class="element__button-like"></button>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main> 
 
-    </main>
-    <footer class="footer">
-      <p class="footer__text">© 2021 Леонид Фролов</p>
-    </footer>
- </div>
+  <footer class="footer body__container">
+    <p class="footer__copyright">&#169;2021. Леонид Фролов</p>
+  </footer>
+  
+  <div class="popup">
+    <div class="popup__container">
+      <form name="popup__form" action="#" method="get" class="popup__form">
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <input type="text" name="popup__name" id="popup__name" class="popup__input">
+        <input type="text" name="popup__job" id="popup__job" class="popup__input">
+        <button type="submit" value="Сохранить" class="popup__button-save">Сохранить</button>
+      </form>
+      <button type="button" class="popup__button-close" aria-label="Закрыть окно"></button>
+    </div>
+  </div>
 
-   <section class="popup">
-     <div class="popup__container">
-       <h2 class="popup__title">Редактировать профиль</h2>
-       <button type="button" class="popup__close" aria-label="Закрыть попап"></button>
-        <form name="form" class="popup__form">
-          <input type="text" name="name" class="popup__input popup__input_info_name" value="Жак-Ив Кусто">
-          <input type="text" name="job" class="popup__input popup__input_info_job" value="Исследователь океана">
-          <button type="submit" class="popup__save">Сохранить</button>
-        </form>
-     </div>
-   </section>
-   <script src="./scripts/script.js"></script>
+  <script src="scripts/index.js"></script>
+
 </body>
 </html>

@@ -1,14 +1,5 @@
 .header {
-  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
-  min-height: 74px;
-  padding-top: 45px;
-  font-family: 'Inter', Arial, sans-serif; 
-}
-
-@media(max-width: 630px) {
-  .header{
-    min-height: 56px;
-    padding-top: 28px;
-    
-  }
+   margin: auto;
+   border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+   
 }
