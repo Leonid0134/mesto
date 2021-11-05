@@ -1,5 +1,6 @@
 .footer__copyright {
     margin: 0;
+    margin-left: 10px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -9,5 +10,6 @@
 @media (max-width: 800px) {
     .footer__copyright {
       font-size: 14px;
+      margin-left: 10px;
     }
 } 
